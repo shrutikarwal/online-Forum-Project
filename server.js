@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
   res.send('API is running...');
 });
 
-// ✅ Mount Auth Routes
+//Mount Auth Routes
 app.use('/api/auth', authRoutes);
 
 const PORT = process.env.PORT || 5000;
